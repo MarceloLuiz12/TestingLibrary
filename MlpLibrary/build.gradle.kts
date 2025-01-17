@@ -35,15 +35,15 @@ android {
 
 publishing {
     publications {
-        create<MavenPublication>("release") {
-            groupId = "com.marcelo"
-            artifactId = "testinglibrary"
-            version = "1.0.0"
+       register<MavenPublication>("release") {
+            groupId = "com.gitjub.mlplibrary"
+            artifactId = "testing"
+            version = "1.0"
 
             afterEvaluate {
                 from(components["release"])
             }
-        }
+       }
     }
 }
 
