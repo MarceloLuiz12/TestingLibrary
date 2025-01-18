@@ -12,7 +12,7 @@ O projeto tem como objetivo demonstrar o processo de desenvolvimento, configura�
 
 Para utilizar a biblioteca em seu projeto Android, adicione o repositório JitPack e a dependência no arquivo `build.gradle` do seu projeto:
 
-1. Adicione o repositório JitPack no `sett.gradle` do projeto:
+1. Adicione o repositório JitPack no `settings.gradle` do projeto:
    ```kotlin
    repositories {
        maven { url 'https://jitpack.io' }
