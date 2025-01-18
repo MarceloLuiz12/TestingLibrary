@@ -22,7 +22,9 @@ Para utilizar a biblioteca em seu projeto Android, adicione o repositório JitPa
 2. Adicione a dependência no `build.gradle` do módulo onde deseja usar a biblioteca:
    ```kotlin
    dependencies {
-       implementation 'com.github.MarceloLuiz12:TestingLibrary:1:0' ou implementation("com.github.MarceloLuiz12:TestingLibrary:1.0")
+       implementation 'com.github.MarceloLuiz12:TestingLibrary:1:0'
+         ou
+       implementation("com.github.MarceloLuiz12:TestingLibrary:1.0")
    }
    ```
 
